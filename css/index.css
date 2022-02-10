@@ -21,7 +21,7 @@
       margin-bottom: 15px;
       font-size: 14px;
       line-height: 20px;
-      color: #494242;
+      color: #363333;
   }
   .header {
     background-color: rgb(19, 12, 12);
@@ -70,7 +70,7 @@
     border-bottom: 0.25rem solid rgb(59, 58, 48);
   }
   .portada_image{
-      background: url('https://www.teahub.io/photos/full/294-2949534_sunrise-mountains-wallpaper-sunrise-mountains-tennessee-mountains-pink.jpg') no-repeat top center;
+      background: url('https://wallpaper.dog/large/17280808.jpg') no-repeat top center;
       background-size: cover;
       width: 100%;
       height: 750px;
@@ -91,7 +91,7 @@
   }
   
   .portada_content h1 span{
-      color: #0c0808;
+      color: gold;
   }
   
   
@@ -103,7 +103,7 @@
       padding: 5% 10%;
   }
   .about{
-      background: #5a7ead;
+      background: #415570;
   }
   .productos{
       background: #E3E4E5;
