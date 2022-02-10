@@ -21,7 +21,7 @@
       margin-bottom: 15px;
       font-size: 14px;
       line-height: 20px;
-      color: #585050;
+      color: #494242;
   }
   .header {
     background-color: rgb(19, 12, 12);
@@ -102,7 +102,9 @@
       text-align: center;
       padding: 5% 10%;
   }
-  
+  .about{
+      background: #5a7ead;
+  }
   .productos{
       background: #E3E4E5;
   }
