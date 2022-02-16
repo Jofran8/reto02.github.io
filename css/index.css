@@ -8,9 +8,9 @@
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  h1.title{
+  h2.title{
       margin-bottom: 20px;
-      color: #2b2727;
+      color: rgb(160, 145, 58);
       text-transform: uppercase;
       font-size: 38px;
       word-spacing: 25px;
@@ -21,7 +21,7 @@
       margin-bottom: 15px;
       font-size: 14px;
       line-height: 20px;
-      color: #363333;
+      color: #0a0a0a;
   }
   .header {
     background-color: rgb(19, 12, 12);
@@ -154,10 +154,20 @@
   .wave-separator__wave {
     width: 100%;
   }
-  
+  .form_input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  :required{
+  }
   .form_wrapper .form_input{
       margin-bottom: 15px;
   }
+  
   
   .form_wrapper .form_input input[type="text"]{
       width: 250px;
