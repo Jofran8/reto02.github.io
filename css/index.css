@@ -105,7 +105,7 @@
   }
   
   .portada_content h1 span{
-      color: gold;
+      color: rgb(59, 55, 31);
   }
   .descripcion::selection{
     background-color: var(--seudoelement)
@@ -263,14 +263,19 @@
   .footer a{
       color: var(--color);
   }
+  .footer-icon {
+    font-size: 2rem;
+    color: var(--color);
+    cursor: pointer;
+    transition: all 0.5s;
+  }
 @media (min-width: 854px) {
-    .header-nav__link-list {
-      position: static;
-      flex-direction: row;
-      width: auto;
-      background-color: inherit;
-      
-    }
+  .header-nav__link-list {
+    position: static;
+    flex-direction: row;
+    width: auto;
+    background-color: inherit;
+  }
     .header-nav__link {
       font-size: 1rem;
       color: var(--color);
