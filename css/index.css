@@ -16,9 +16,10 @@
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
+  
   h2{
       margin-bottom: 20px;
-      color: var(--color-h2);
+      color: rgb(84, 168, 15);
       text-transform: uppercase;
       font-size: 38px;
       word-spacing: 25px;
@@ -95,7 +96,7 @@
   
   .portada_content{
       text-align: center;
-      color:var(--color);
+      color:rgb(184, 235, 0);
   }
   
   .portada_content h1{
@@ -105,7 +106,7 @@
   }
   
   .portada_content h1 span{
-      color: rgb(59, 55, 31);
+      color: rgb(247, 246, 242);
   }
   .descripcion::selection{
     background-color: var(--seudoelement)
@@ -120,6 +121,9 @@
   }
   .about{
       background: #58759b;
+  }
+  .contacto-title{
+     color: rgb(33, 40, 136);
   }
   .productos{
       background: #E3E4E5;
@@ -280,4 +284,10 @@
       font-size: 1rem;
       color: var(--color);
     }
+    
   }
+  h2{
+    
+    color: rgb(3, 94, 41);
+    
+}
